@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "wardenshields",
+  "version": "${version}",
+
+  "name": "Warden Shields",
+  "description": "A Fabric addon for Warden Loot that adds unique shields",
+  "authors": [
+    "nu11une"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/members/nu11une/projects",
+    "sources": "https://github.com/nu11une"
+  },
+
+  "license": "Apache-2.0",
+  "icon": "assets/wardenshields/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.nu11une.wardenshields.WardenShields"
+    ]
+  },
+  "mixins": [
+    "wardenshields.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

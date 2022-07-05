@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "wardenloot:sculk_ingot"
+    },
+    "$": {
+      "item": "wardenshields:ancient_bone_shard"
+    }
+  },
+  "pattern": [
+    "$#$",
+    "$$$",
+    " $ "
+  ],
+  "result": {
+    "item": "wardenshields:warden_shield"
+  }
+}
